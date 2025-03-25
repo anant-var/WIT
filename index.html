@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WIT Website</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #827b7b; /* Setting background color */
+        background-image: url('Designer.png'); /* Add your image path here */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999; /* Ensure it's above other content */
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    nav {
+        display: flex;
+    }
+    nav a, .btn {
+        color: #000;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    nav a:hover, .btn:hover {
+        background-color: #767876;
+    }
+    #about {
+        margin-top: 250px; /* Adjust as needed */
+        text-align: center; /* Center align the content */
+        color: #000;
+        font-family: 'Roboto Serif', serif; /* Applying Roboto Serif font */
+        padding: 0 20px; /* Add padding to give some space */
+        max-width: 50%; /* Limit the width to 50% of the viewport */
+        margin-left: auto; /* Align to the right */
+        margin-right: auto; /* Align to the left */
+    }
+    #about h2 {
+        margin-bottom: 10px; /* Add space between h2 and p */
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">WIT</div>
+        <nav class="right-nav">
+            <a href="Slogin.html" target="_blank" class="btn">Login</a>
+            <a href="signUp.html" class="btn">Get Started</a>
+            <a href="main.html" class="btn">Create +</a> 
+        </nav>
+    </div>
+    
+    <section id="about">
+        <h2>.About Us.</h2>
+        <p>Welcome to our blog! Founded by a passionate student from UPES University, our blog aims to be a platform where we share insightful perspectives, experiences, and knowledge. At UPES, we believe in the power of education, innovation, and creativity. Through this blog, we strive to inspire and inform our readers about various topics, including technology, science, sustainability, and student life. Join us on this journey as we explore ideas, engage in discussions, and contribute to the intellectual discourse within our community. Whether you're a fellow student, an academic enthusiast, or simply curious about the world around us, we invite you to be part of our growing community. Let's learn, share, and grow together!</p>
+    </section>
+</body>
+</html>

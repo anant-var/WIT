@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #662d91; /* Background color */
+        background-image: url('Designer.png'); /* Background image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #424542;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        width: 300px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+        border-radius: 10px;
+    }
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+    input[type="submit"] {
+        background-color: #767876; /* Button background color */
+        color: #fff;
+        padding: 10px 0;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #4c225f; /* Button hover background color */
+    }
+    .social-buttons {
+        text-align: center;
+    }
+    .social-buttons a {
+        display: inline-block;
+        margin: 10px;
+    }
+    .social-buttons img {
+        width: 30px; /* Adjust the width of social media icons */
+        height: auto;
+        border-radius: 50%; /* Make the images circular */
+    }
+    .company-name {
+        position: absolute;
+        color: #000;
+        top: 20px;
+        left: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none; /* Remove underline */
+    }
+    .sign-up-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sign-up-button a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #767876; /* Button background color */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .sign-up-button a:hover {
+        background-color: #662d91; /* Button hover background color */
+    }
+</style>
+</head>
+<body>
+    <a href="index.html" class="company-name">WIT</a>
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <p style="text-align: center;">Or Sign Up Using</p>
+        <div class="social-buttons">
+            <a href="#"><img src="facebook_img.png" alt="Facebook"></a>
+            <a href="#"><img src="google_img.png" alt="Google"></a>
+        </div>
+        <div class="sign-up-button">
+            <a href="signUp.html">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
