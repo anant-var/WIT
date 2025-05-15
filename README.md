@@ -28,3 +28,5 @@ Development is ongoing! More updates will be added soon. Feel free to suggest im
 ## 📜 License
 This project is open-source and under the MIT License.
 
+## Live Demo
+"https://anant-var.github.io/WIT/"
